@@ -113,16 +113,10 @@ To set up a free Azure cloud account for hosting resources required for your Dev
  **9. Access the Azure Portal**
 - Click on **Go to the Azure Portal** to access your new Azure account dashboard.
 
----
+For detailed information about free trail acess this link : [how-to-add-a-trial-subscription-to-your-azure-account]([https://techcommunity.microsoft.com/t5/startups-at-microsoft/how-to-add-a-trial-subscription-to-your-azure-account-step-by/ba-p/3792372)
+ 
 
-## **Visual Aids**
-- **Screenshot of the Azure Free Account Page**: [Insert Image Here]
-- **Screenshot of the Microsoft Account Sign-In Page**: [Insert Image Here]
-- **Screenshot of the Verification Process**: [Insert Image Here]
-- **Screenshot of Azure Portal Dashboard**: [Insert Image Here]
 
----
 
-This concludes Step 1 of setting up your DevSecOps pipeline. Once your Azure account is ready, you can proceed to the next steps in your project. Let me know when you're ready for the next step or if you need more details on this one!
-
+This concludes Step 1 of setting up your DevSecOps pipeline. Once your Azure account is ready, you can proceed to the next steps in your project.
 
