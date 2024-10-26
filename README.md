@@ -113,7 +113,7 @@ To set up a free Azure cloud account for hosting resources required for your Dev
  **9. Access the Azure Portal**
 - Click on **Go to the Azure Portal** to access your new Azure account dashboard.
 
-For detailed information about free trail acess this link : [how-to-add-a-trial-subscription-to-your-azureaccount(https://techcommunity.microsoft.com/t5/startups-at-microsoft/how-to-add-a-trial-subscription-to-your-azure-account-step-by/ba-p/3792372)
+For detailed information about free trail: Follow this link : [how-to-add-a-trial-subscription-to-your-azureaccount(https://techcommunity.microsoft.com/t5/startups-at-microsoft/how-to-add-a-trial-subscription-to-your-azure-account-step-by/ba-p/3792372)
  
 
 
