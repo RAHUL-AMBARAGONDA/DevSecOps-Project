@@ -137,8 +137,7 @@ Click on + Create to start the Kubernetes cluster creation process.
 3. Configure Basic Cluster Settings
    
 Under the Basics tab:
-
-
+![Screenshot (12)](https://github.com/user-attachments/assets/b7025e90-e2f8-4b1f-80e6-f2fdd0051784)
 
 **Subscription:** Select Free Trial to use Azure’s free resources.
 
