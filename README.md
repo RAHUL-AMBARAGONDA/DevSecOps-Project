@@ -46,33 +46,20 @@ GitHub Account: GitHub repository with Actions enabled for automating CI/CD work
 **Basic Knowledge of the Following:**
 
 **DevSecOps and CI/CD Pipelines:** Familiarity with GitHub Actions or other CI/CD tools.
+
 **Kubernetes:** Understanding of basic Kubernetes concepts, including nodes, pods, services, and deployments.
+
 **Docker:** Knowledge of Docker basics, including Dockerfile creation, image building, and pushing images to a container registry.
+
 **JavaScript:** Basic understanding to implement modifications to the Infinite Mario game.
+
 **Tools and Technologies Used**
+
 Azure Kubernetes Service (AKS)
 Docker and Docker Hub
 SonarQube for SAST Scans
 GitHub Actions for CI/CD
 Trivy for Container Security
-
-## **Table of Contents**
-
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Project Overview](#project-overview)
-- [Pipeline Architecture](#pipeline-architecture)
-- [Step-by-Step Implementation](#step-by-step-implementation)
-  - [1. Clone the Repository](#1-clone-the-repository)
-  - [2. Set Up GitHub Actions](#2-set-up-github-actions)
-  - [3. Configure SonarQube for SAST](#3-configure-sonarqube-for-sast)
-  - [4. Dockerize the Mario Game](#4-dockerize-the-mario-game)
-  - [5. Implement Dynamic Tagging](#5-implement-dynamic-tagging)
-  - [6. Deploy to AKS with ArgoCD](#6-deploy-to-aks-with-argocd)
-  - [7. Validate End-to-End Pipeline Execution](#7-validate-end-to-end-pipeline-execution)
-- [Conclusion](#conclusion)
-- [License](#license)
-
 ---
 
  **Pipeline Architecture**
