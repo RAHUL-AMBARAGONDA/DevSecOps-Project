@@ -83,6 +83,73 @@ The pipeline architecture integrates the following stages:
  **Step-by-Step Implementation**
  Here's a focused step-by-step guide for creating an Azure account as the first step in your DevSecOps pipeline project:
 
+# DevSecOps Project
+
+This project provides a modular DevSecOps pipeline setup. Click on each module for detailed steps.
+
+## Table of Contents
+1. [Module 1: Setting up the DevSecOps Environment](#module-1-setting-up-the-devsecops-environment)
+2. [Module 2: Secure Code and Artifact Management](#module-2-secure-code-and-artifact-management)
+3. [Module 3: Continuous Integration and Security Validation](#module-3-continuous-integration-and-security-validation)
+4. [Module 4: Deploying to a Secure Kubernetes Environment](#module-4-deploying-to-a-secure-kubernetes-environment)
+5. [Module 5: Monitoring, Logging, and Incident Management](#module-5-monitoring-logging-and-incident-management)
+6. [Module 6: Compliance and Continuous Security Improvement](#module-6-compliance-and-continuous-security-improvement)
+
+---
+
+### Module 1: Setting up the DevSecOps Environment
+
+In this module, you'll set up the foundational DevSecOps environment.
+- **Step 1: Create Kubernetes Cluster**
+- **Step 2: Configure GitLab/GitHub Repositories**
+- **Step 3: Set Up CI/CD Security Scanning**
+
+---
+
+### Module 2: Secure Code and Artifact Management
+
+This module covers securing code repositories, managing artifacts, and ensuring trusted code deployment.
+- **Step 1: Source Code Scanning**
+- **Step 2: Docker Image Scanning**
+- **Step 3: Dependency Management**
+
+---
+
+### Module 3: Continuous Integration and Security Validation
+
+Integrate security checks into the CI pipeline to test code changes before deployment.
+- **Step 1: Implement CI/CD Pipeline**
+- **Step 2: Configuration as Code**
+- **Step 3: Testing and Validation**
+
+---
+
+### Module 4: Deploying to a Secure Kubernetes Environment
+
+Deploy containers securely by implementing security policies.
+- **Step 1: Kubernetes Deployment**
+- **Step 2: Pod Security Policies**
+- **Step 3: Network Policies**
+- **Step 4: Secrets Management**
+
+---
+
+### Module 5: Monitoring, Logging, and Incident Management
+
+Monitor and respond to security threats.
+- **Step 1: Set Up Monitoring with Azure Monitor/Prometheus**
+- **Step 2: Integrate Microsoft Sentinel for Security Monitoring**
+- **Step 3: Incident Management**
+
+---
+
+### Module 6: Compliance and Continuous Security Improvement
+
+Ensure compliance and continuously improve security practices.
+- **Step 1: Auditing and Compliance Checks**
+- **Step 2: Implement Feedback Loops**
+
+
 ---
 
 **Step 1: Create an Azure Cloud Account**
