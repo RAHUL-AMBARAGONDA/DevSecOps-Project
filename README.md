@@ -282,7 +282,7 @@ Disabled by default for a basic setup.
 
 **DNS Name Prefix**
 
-Set as demoKubernetesCluster-dns.
+**Set as demoKubernetesCluster-dns.**
 
 This prefix will be used to create a fully qualified domain name (FQDN) for the cluster, facilitating identification and access.
 Network Policy
