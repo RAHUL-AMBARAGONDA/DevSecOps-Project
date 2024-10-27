@@ -202,7 +202,7 @@ Add a New Node Pool (System Node)
 
 **Enable Azure Spot Instances:** Leave Disabled (Spot instances are not compatible with system node pools).
 
-**Node Size:** Set to Standard B2pls v2 (2 vCPUs, 4 GiB memory).
+**Node Size:** Standard D2pds v6 2 vcpus, 8 GiB memory
 
 **Scale Method:** Choose Manual or Autoscale (recommended for automatic scaling).
 
