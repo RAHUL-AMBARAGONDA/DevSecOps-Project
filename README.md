@@ -259,3 +259,40 @@ This configuration allows for better load distribution and redundancy within the
 **Enable Public IP per Node:** Leave Disabled (recommended unless each node requires individual external access).
 
 
+**Step 5: Configuring Networking for the Kubernetes Cluster**
+
+Configuring networking is a critical step to control how your Kubernetes cluster communicates within the Azure environment and with external resources. We’ll use the kubenet network plugin, a simple and effective choice for smaller clusters.
+
+**Networking Configuration**
+
+**Public Access**
+
+**Set Authorized IP Ranges:** Define which IP ranges can access the cluster if public access is enabled. By default, all IP ranges are blocked unless specified, enhancing security by controlling access to the Kubernetes API server
+
+**Container Networking**
+
+**Network Configuration: Choose kubenet.**
+
+Kubenet is a lightweight network model that works well with smaller clusters and is simple to set up. Each node gets a unique IP, and traffic between nodes is routed through Azure's internal network.
+Bring Your Own Azure Virtual Network (VNet)
+
+Disabled by default for a basic setup.
+
+**Note:** You can enable this if you want to connect the cluster to an existing Azure VNet for more control over network traffic and security.
+
+**DNS Name Prefix**
+
+Set as demoKubernetesCluster-dns.
+
+This prefix will be used to create a fully qualified domain name (FQDN) for the cluster, facilitating identification and access.
+Network Policy
+
+**None (default).**
+
+Azure Network Policies, which control the communication between pods, can be enabled later if you need more advanced network security configurations.
+Load Balancer
+
+**Choose Standard.**
+The Standard Load Balancer offers higher scalability and additional security options compared to the Basic Load Balancer, ideal for production-ready clusters.
+
+
