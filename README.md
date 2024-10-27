@@ -1,5 +1,6 @@
-**End-to-End DevSecOps Pipeline for Super Mario Game**
-Project Introduction: Secure DevSecOps Pipeline for Infinite Mario Game
+***End-to-End DevSecOps Pipeline for Super Mario Game***
+
+**Project Introduction:** Secure DevSecOps Pipeline for Infinite Mario Game
 In this project, we establish a secure, automated DevSecOps pipeline to manage the development, security, and deployment lifecycle of the Infinite Mario JavaScript game. This project demonstrates the full DevSecOps workflow, from code quality checks and security scans to seamless container deployment in a Kubernetes environment. By implementing a robust CI/CD process, we enable automated detection of vulnerabilities, streamlined deployments, and secure infrastructure, all in a highly adaptable, cloud-based setup.
 
 **This project aims to deliver:**
