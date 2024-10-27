@@ -252,10 +252,10 @@ Autoscaling dynamically adjusts the node count based on workload requirements, e
 
 This configuration allows for better load distribution and redundancy within the user node pool.
 
-Optional Settings
+**Optional Settings**
 
-Max Pods per Node: Set to 30 (adjustable between 10 - 250).
+**Max Pods per Node:** Set to 30 (adjustable between 10 - 250).
 
-Enable Public IP per Node: Leave Disabled (recommended unless each node requires individual external access).
+**Enable Public IP per Node:** Leave Disabled (recommended unless each node requires individual external access).
 
 
