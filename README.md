@@ -142,6 +142,8 @@ Click on + Create to start the Kubernetes cluster creation process.
    
 Under the Basics tab:
 
+![Screenshot (12)](https://github.com/user-attachments/assets/f907297b-c648-4019-b40e-1f62343a1722)
+
 **Subscription:** Select Free Trial to use Azure’s free resources.
 
 **Resource Group:** Select or create demo-resource-group.
