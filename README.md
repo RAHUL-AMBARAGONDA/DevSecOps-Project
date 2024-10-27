@@ -218,3 +218,44 @@ We will now add a User Node pool with similar settings to support the applicatio
 
 Configure the User Node settings similarly, making sure it is designated for workload handling.
 
+**Step 4: Configuring the User Node Pool in Kubernetes Cluster**
+
+With the system node pool configured, we’ll now add a user node pool that will manage our application workloads within the Kubernetes cluster. This setup allows us to distribute the cluster's responsibilities, separating system processes from user-defined workloads.
+
+**User Node Pool Configuration**
+
+**Configure the settings for the User Node Pool as follows:**
+
+**Node Pool Name:** Set as demousermode.
+
+**Mode:** Select User.
+
+This designation focuses on handling application workloads, leaving essential cluster processes to the system node pool.
+
+**OS SKU:** Choose Azure Linux for consistency, though Ubuntu Linux and Windows versions (2022 or 2019) are also available.
+
+**Availability Zones:** Select Zone 1 to ensure the user node pool resides in the same geographic zone for optimized latency and failover.
+
+**Enable Azure Spot Instances:** Leave Disabled.
+
+Spot instances are cost-effective but can lead to interruptions, making them better suited for non-critical tasks.
+
+**Node Size:** Set to Standard D2pds v5 (2 vCPUs, 8 GiB memory).
+
+This configuration provides more memory, useful for handling multiple application containers.
+
+**Scale Method:** Choose Autoscale (recommended).
+
+Autoscaling dynamically adjusts the node count based on workload requirements, ensuring optimal resource usage without manual intervention.
+
+**Node Count:** Set the initial count to 3 nodes.
+
+This configuration allows for better load distribution and redundancy within the user node pool.
+
+Optional Settings
+
+Max Pods per Node: Set to 30 (adjustable between 10 - 250).
+
+Enable Public IP per Node: Leave Disabled (recommended unless each node requires individual external access).
+
+
