@@ -75,8 +75,8 @@ The pipeline architecture integrates the following stages:
 4. **Security Scanning**: Scan images with Trivy for vulnerabilities.
 5. **Deployment**: Deploy to AKS using ArgoCD.
 
-(![WhatsApp Image 2024-10-26 at 9 44 21 PM](https://github.com/user-attachments/assets/b14c66ba-1a66-43bf-92c4-593d26793801)
-)  
+![WhatsApp Image 2024-10-26 at 9 44 21 PM](https://github.com/user-attachments/assets/b14c66ba-1a66-43bf-92c4-593d26793801)
+ 
 
 ---
 
