@@ -138,19 +138,32 @@ Click on + Create to start the Kubernetes cluster creation process.
 Under the Basics tab:
 
 **Subscription:** Select Free Trial to use Azure’s free resources.
+
 **Resource Group:** Select or create demo-resource-group.
+
 **Cluster Preset Configuration:** Choose Dev/Test. This preset is optimized for demonstration purposes and is cost-effective.
+
 **Kubernetes Cluster Name:** Enter demoKubernetesCluster.
+
 **Region:** Select East US.
+
 **Availability Zones:** Set to None for this demo configuration.
+
 **AKS Pricing Tier:** Select Free to keep the cluster within the free tier options.
 
 **3. Configure Kubernetes Version and Upgrade Settings**
+
 **Kubernetes Version:** Select 1.27.7 (the default version available).
+
 **Automatic Upgrade:** Set to Disabled to manually control version upgrades.
+
 **4. Set Authentication and Authorization Options**
+
 **Authentication Method:** Choose Local Accounts with Kubernetes RBAC to enable Role-Based Access Control for added security.
+
 **5. Configure Node Security and Scheduling**
+
 **Node Security Channel Type:** Set Node Image as the security channel type.
+
 **Scheduler Option:** Choose No Schedule to prevent unnecessary load on nodes reserved for security tasks.
 
