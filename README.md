@@ -146,7 +146,7 @@ Under the Basics tab:
 
 **Kubernetes Cluster Name:** Enter demoKubernetesCluster.
 
-**Region:** Select East US.
+**Region:** Select Italy North.
 
 **Availability Zones:** Set to None for this demo configuration.
 
