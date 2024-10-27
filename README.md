@@ -75,7 +75,7 @@ The pipeline architecture integrates the following stages:
 4. **Security Scanning**: Scan images with Trivy for vulnerabilities.
 5. **Deployment**: Deploy to AKS using ArgoCD.
 
-![Pipeline Architecture](path/to/your/image.png)  <!-- Replace with the path to your architecture diagram -->
+![Pipeline Architecture]()  
 
 ---
 
