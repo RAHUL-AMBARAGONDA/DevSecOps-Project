@@ -137,7 +137,6 @@ Click on + Create to start the Kubernetes cluster creation process.
 3. Configure Basic Cluster Settings
    
 Under the Basics tab:
-![Screenshot (12)](https://github.com/user-attachments/assets/b7025e90-e2f8-4b1f-80e6-f2fdd0051784)
 
 **Subscription:** Select Free Trial to use Azure’s free resources.
 
@@ -168,4 +167,54 @@ Under the Basics tab:
 **Node Security Channel Type:** Set Node Image as the security channel type.
 
 **Scheduler Option:** Choose No Schedule to prevent unnecessary load on nodes reserved for security tasks.
+
+**Step 3: Configuring Node Pools for Kubernetes Cluster**
+
+In this step, we will configure the node pools for our Kubernetes cluster to define the resource allocation and scaling behavior for the nodes that make up the cluster.
+
+**Understanding Node Pool Quotas and Limitations (Free Tier)**
+
+In the Free Tier of Azure, there is a quota limit of 4 node pools with a total capacity of 4 vCPUs. This means that:
+
+If you use two nodes, each can have 2 vCPUs.
+
+This limit is ideal for lightweight applications or demos, like this DevSecOps project.
+
+**Note: If you upgrade to a paid tier, these limitations can be lifted, allowing for additional CPU resources and node pools.**
+
+**Node Pool Configuration Steps**
+
+Delete the Default System Node Pool (Optional for Paid Tier)
+
+Since the Free Tier has limited capacity, delete the default system node pool created by Azure.
+This ensures that your cluster’s quota is optimized for the nodes you configure manually.
+Add a New Node Pool (System Node)
+
+**Configure the node pool settings for your system node as follows:**
+
+**Node Pool Name: demosysnode**
+
+**Mode:** Select System to designate this as the main node pool handling essential cluster operations.
+
+**OS SKU:** Choose Azure Linux (Linux is required for system node pools).
+
+**Availability Zones:** Select None.
+
+**Enable Azure Spot Instances:** Leave Disabled (Spot instances are not compatible with system node pools).
+
+**Node Size:** Set to Standard B2pls v2 (2 vCPUs, 4 GiB memory).
+
+**Scale Method:** Choose Manual or Autoscale (recommended for automatic scaling).
+
+**Node Count:** Set to 1 node.
+
+**Max Pods per Node:** Set to 30 (can be adjusted between 30 - 250).
+
+**Enable Public IP per Node:** Leave Disabled (optional for this demo).
+
+**Add a New Node Pool (User Node)**
+
+We will now add a User Node pool with similar settings to support the application workloads in the cluster.
+
+Configure the User Node settings similarly, making sure it is designated for workload handling.
 
