@@ -192,7 +192,7 @@ Add a New Node Pool (System Node)
 
 **Configure the node pool settings for your system node as follows:**
 
-**Node Pool Name: demosysnode**
+**Node Pool Name:** demosysnode
 
 **Mode:** Select System to designate this as the main node pool handling essential cluster operations.
 
