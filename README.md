@@ -136,6 +136,8 @@ Click on + Create to start the Kubernetes cluster creation process.
 
 3. Configure Basic Cluster Settings
 Under the Basics tab:
+![Alt text]("C:\Users\r3586\OneDrive\Pictures\Screenshots\Screenshot (12).png" "Optional title")
+
 
 **Subscription:** Select Free Trial to use Azure’s free resources.
 
