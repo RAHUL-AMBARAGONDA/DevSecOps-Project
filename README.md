@@ -131,12 +131,13 @@ This concludes Step 1 of setting up your DevSecOps pipeline. Once your Azure acc
 1. Access the Kubernetes Cluster Creation Wizard in Azure
 Log in to your Azure portal at portal.azure.com.
 
-2.In the search bar at the top of the portal, type Kubernetes services and select it from the list of services.
+2. In the search bar at the top of the portal, type Kubernetes services and select it from the list of services.
 Click on + Create to start the Kubernetes cluster creation process.
 
 3. Configure Basic Cluster Settings
+   
 Under the Basics tab:
-![Alt text]("C:\Users\r3586\OneDrive\Pictures\Screenshots\Screenshot (12).png" "Optional title")
+
 
 
 **Subscription:** Select Free Trial to use Azure’s free resources.
