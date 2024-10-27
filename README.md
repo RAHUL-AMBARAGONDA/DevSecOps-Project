@@ -124,8 +124,33 @@ To set up a free Azure cloud account for hosting resources required for your Dev
 
 For detailed information about free trail: Follow this link : [how-to-add-a-trial-subscription-to-your-azureaccount(https://techcommunity.microsoft.com/t5/startups-at-microsoft/how-to-add-a-trial-subscription-to-your-azure-account-step-by/ba-p/3792372)
  
-
-
-
 This concludes Step 1 of setting up your DevSecOps pipeline. Once your Azure account is ready, you can proceed to the next steps in your project.
+
+**Step-by-Step Guide to Creating the Kubernetes Cluster in Azure**
+
+1. Access the Kubernetes Cluster Creation Wizard in Azure
+Log in to your Azure portal at portal.azure.com.
+
+2.In the search bar at the top of the portal, type Kubernetes services and select it from the list of services.
+Click on + Create to start the Kubernetes cluster creation process.
+
+3. Configure Basic Cluster Settings
+Under the Basics tab:
+
+**Subscription:** Select Free Trial to use Azure’s free resources.
+**Resource Group:** Select or create demo-resource-group.
+**Cluster Preset Configuration:** Choose Dev/Test. This preset is optimized for demonstration purposes and is cost-effective.
+**Kubernetes Cluster Name:** Enter demoKubernetesCluster.
+**Region:** Select East US.
+**Availability Zones:** Set to None for this demo configuration.
+**AKS Pricing Tier:** Select Free to keep the cluster within the free tier options.
+
+**3. Configure Kubernetes Version and Upgrade Settings**
+**Kubernetes Version:** Select 1.27.7 (the default version available).
+**Automatic Upgrade:** Set to Disabled to manually control version upgrades.
+**4. Set Authentication and Authorization Options**
+**Authentication Method:** Choose Local Accounts with Kubernetes RBAC to enable Role-Based Access Control for added security.
+**5. Configure Node Security and Scheduling**
+**Node Security Channel Type:** Set Node Image as the security channel type.
+**Scheduler Option:** Choose No Schedule to prevent unnecessary load on nodes reserved for security tasks.
 
