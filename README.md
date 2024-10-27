@@ -1,6 +1,4 @@
-# Main Header End-to-End DevSecOps Pipeline for Super Mario Game 
-<p style="font-size:24px">This text is larger than normal.</p>
-
+# End-to-End DevSecOps Pipeline for Super Mario Game 
 
 # **Table of Contents**
 
